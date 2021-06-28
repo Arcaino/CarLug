@@ -30,11 +30,6 @@
             position: absolute;
             bottom: 75%;
         }
-        .modelo{
-            right: 40px;
-            position: absolute;
-            color: #5A189A;
-        }
     }
     .swiper-slide img {
         display: block;
@@ -47,7 +42,76 @@
     }
 }
 
-
 :root {
     --swiper-theme-color: #000;
+}
+
+.conteudo{
+    text-align: center;
+    &__titulo{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    &__subtitulo{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    &__btn{
+        background-color: #5A189A;
+        border: 0;
+        border-radius: .25rem;
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+        margin-top: .5rem;
+        padding: .7rem .5rem;
+    }
+    .sub{
+        background-color: #E0AAFF;
+    }
+}
+
+.video{
+    text-align: center;
+    &__titulo{
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    &__subtitulo{
+        font-size: 1rem;
+        font-weight: 200;
+        font-weight: 50px;
+        padding: 0 1.5rem;
+    }
+    &__btn{
+        width: 10rem;
+        background-color: #5A189A;
+        border: 0;
+        border-radius: .25rem;
+        color: #FFF;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: .2rem 2rem;
+    }
+    &__video{
+        border-radius: 2rem;
+    }
+    .moldura{
+        display: flex;
+        justify-content: center;
+        position:relative;
+
+        &__video{
+            width: 17rem;
+            border-radius: 30px;
+        }
+
+        &__btn{
+            position: absolute;
+            z-index: 9;
+            top: 28%;
+        }
+    }
 }

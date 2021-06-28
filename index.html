@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="css/swiper-bundle.css" rel="stylesheet">
     <link href="css/swiper-bundle.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -11,6 +13,7 @@
     <link href="css/fontawesome.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
     <link href="css/solid.css" rel="stylesheet">
+
 
     <title>CARLUG</title>
     <link rel="icon" type="image/gif/png" href="assets/Logo.svg">
@@ -28,22 +31,29 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="swiper-slide__titulo position-absolute end-50">Hyundai</div>
-          <div class="swiper-slide__titulo modelo">Sonata</div>
+          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 40px; color: #5A189A">Sonata</div>
           <div class="swiper-slide__subtitulo">2.4 MPFI I4 16V 182CV GASOLINA 4P AUTOMÁTICO</div>
           <img src="assets/car.svg">
         </div>
         <div class="swiper-slide">
           <div class="swiper-slide__titulo" style="position: absolute; left: 50px;">Ford</div>
-          <div class="swiper-slide__titulo modelo">Mustang</div>
+          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 40px; color: #5A189A">Mustang</div>
           <div class="swiper-slide__subtitulo">5.0 V8 TI-VCT GASOLINA BLACK SHADOW SELECTSHIFT</div>
           <img src="assets/car2.svg">
         </div>
         <div class="swiper-slide">
           <div class="swiper-slide__titulo marca" style="position: absolute; left: 40px;">Toyota</div>
-          <div class="swiper-slide__titulo modelo">Corolla</div>
+          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 40px; color: #5A189A">Corolla</div>
           <div class="swiper-slide__subtitulo">2.0 ALTIS 16V FLEX 4P AUTOMÁTICO
           </div>
           <img src="assets/car3.svg">
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide__titulo marca" style="position: absolute; left: 30px;">Lamborguini</div>
+          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 20px; color: #5A189A">Urus</div>
+          <div class="swiper-slide__subtitulo">4.0 V8 TURBO GASOLINA LP650-4 AUTOMÁTICO
+          </div>
+          <img src="assets/car4.svg">
         </div>
       </div>
       <div class="swiper-button-next"></div>
@@ -51,9 +61,30 @@
       <div class="swiper-pagination"></div>
     </div>
 
-    
+    <div class="container conteudo">
+      <h1 class="conteudo__titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+      <h2 class="conteudo__subtitulo">Praesent eu ultrices ipsum. Etiam interdum, urna eget tincidunt rutrum.</h2>
+      <div class="d-flex justify-content-around">
+      <button class="conteudo__btn">Alugue seu carro</button>
+      <button class="conteudo__btn sub">Faça seu teste</button>
+      </div>
+    </div>
 
+    <div class="container video">
+      <h1 class="video__titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+      <h2 class="video__subtitulo">Nam consequat augue elementum posuere pellentesque. Vestibulum finibus faucibus sapien, sed dictum orci interdum quis.</h2>
 
+      <div class="moldura">
+        <img id="btn" class="moldura__btn" src="assets/playbtn.png">
+        <video class="moldura__video" poster="assets/videoposter.svg">
+          <source src="assets/video.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <button class="video__btn">Veja como funciona</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/swiper-bundle.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>

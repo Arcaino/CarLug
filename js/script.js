@@ -10,3 +10,10 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
+
+var video = $('.moldura').children('.moldura__video');
+var videoElement = video.get(0);
+
+if (videoElement.paused) {
+  console.log("teste");
+} 
