@@ -15,5 +15,13 @@ var video = $('.moldura').children('.moldura__video');
 var videoElement = video.get(0);
 
 if (videoElement.paused) {
-  console.log("teste");
-} 
+  $('.moldura__btn').click(function(){
+    videoElement.play();
+    $('.moldura__btn').fadeOut();
+  })
+} else{
+  videoElement.click(function(){
+    videoElement.pause();
+    $('.moldura__btn').fadeIn();
+  })
+}
