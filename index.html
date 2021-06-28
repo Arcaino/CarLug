@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link href="css/swiper-bundle.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
     <link href="css/fontawesome.css" rel="stylesheet">
     <link href="css/brands.css" rel="stylesheet">
     <link href="css/solid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <script defer src="js/all.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
     <title>CARLUG</title>
     <link rel="icon" type="image/gif/png" href="assets/Logo.svg">
   </head>
+
   <body>
 
     <header class="cabecalho d-flex justify-content-between">
@@ -20,30 +23,42 @@
       <i class="fas fa-bars cabecalho__menu"></i>
     </header>
     
-    <section class="slider">
-    <div class="slider__box">
-      <div class="slider__box__slide active">
-        <img src="assets/car.svg">
+
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="swiper-slide__titulo position-absolute end-50">Hyundai</div>
+          <div class="swiper-slide__titulo modelo">Sonata</div>
+          <div class="swiper-slide__subtitulo">2.4 MPFI I4 16V 182CV GASOLINA 4P AUTOMÁTICO</div>
+          <img src="assets/car.svg">
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide__titulo" style="position: absolute; left: 50px;">Ford</div>
+          <div class="swiper-slide__titulo modelo">Mustang</div>
+          <div class="swiper-slide__subtitulo">5.0 V8 TI-VCT GASOLINA BLACK SHADOW SELECTSHIFT</div>
+          <img src="assets/car2.svg">
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-slide__titulo marca" style="position: absolute; left: 40px;">Toyota</div>
+          <div class="swiper-slide__titulo modelo">Corolla</div>
+          <div class="swiper-slide__subtitulo">2.0 ALTIS 16V FLEX 4P AUTOMÁTICO
+          </div>
+          <img src="assets/car3.svg">
+        </div>
       </div>
-      <div class="slider__box__slide">
-        <img src="assets/car2.svg">
-      </div>
-      <div class="slider__box__slide">
-        <img src="assets/car3.svg">
-      </div>
-      <div class="navigation">
-        <div class="navigation__btn active"></div>
-        <div class="navigation__btn"></div>
-        <div class="navigation__btn"></div>
-      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
-  </section>
+
+    
 
 
-
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
+    <script  defer src="js/all.js"></script>
+    
   </body>
 </html>
