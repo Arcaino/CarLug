@@ -126,16 +126,43 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .video .moldura__video {
   width: 17rem;
   border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .video .moldura__btn {
   position: absolute;
   z-index: 9;
   top: 28%;
+}
+
+.rodape {
+  font-size: .5rem;
+  color: #FFF;
+  margin-top: 2rem;
+  background: #5A189A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rodape__img {
+  margin: 1rem .5rem;
+  width: 3rem;
+}
+
+.rodape__info {
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+.rodape__copy {
+  padding-top: 1rem;
 }
 /*# sourceMappingURL=custom.css.map */

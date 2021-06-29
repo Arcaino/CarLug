@@ -102,10 +102,11 @@
         display: flex;
         justify-content: center;
         position:relative;
-
+        margin-bottom: 1rem;
         &__video{
             width: 17rem;
             border-radius: 30px;
+            object-fit: cover;
         }
 
         &__btn{
@@ -113,5 +114,24 @@
             z-index: 9;
             top: 28%;
         }
+    }
+}
+
+.rodape{
+    font-size: .5rem;
+    color: #FFF;
+    margin-top: 2rem;
+    background: #5A189A;
+    display: flex;
+    &__img{
+        margin: 1rem .5rem;
+        width: 3rem;
+    }
+    &__info{
+        padding-top: 1rem;
+        margin-bottom: 0;
+    }
+    &__copy{
+        padding-top: 1rem;
     }
 }

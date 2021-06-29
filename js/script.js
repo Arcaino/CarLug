@@ -19,9 +19,9 @@ if (videoElement.paused) {
     videoElement.play();
     $('.moldura__btn').fadeOut();
   })
-} else{
-  videoElement.click(function(){
-    videoElement.pause();
-    $('.moldura__btn').fadeIn();
-  })
-}
+} 
+
+$('.moldura__video').click(function(){
+  videoElement.pause();
+  $('.moldura__btn').fadeIn();
+})
