@@ -6,6 +6,19 @@
         font-size: 2rem;
         margin: 2rem 1rem;
     }
+    .navbar-collapse{
+        .nav-item{
+            .nav-link{
+                font-size: 2rem;
+                text-transform: lowercase;
+                font-weight: bold;
+                color: #000;
+            }
+            .active{
+                color: #5A189A;
+            }
+        }
+    }
 }
 
 .swiper-container{

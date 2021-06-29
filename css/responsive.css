@@ -8,8 +8,16 @@
 }
 
 
-@media (min-width: 992px) {
-
+@media (max-width: 991.98px) {
+    .navbar-collapse{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+    }
+    .cabecalho__btn{
+        background: none;
+        border: 0;
+    }
 }
 
 
