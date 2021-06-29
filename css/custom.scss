@@ -22,12 +22,12 @@
 }
 
 .swiper-container{
-    width: 16rem;
+    width: 80vw;
     height: 100%; 
     overflow: visible;
     .swiper-slide{
-        margin-top: 1rem;
-        height: 14rem;
+        margin-top: 5vw;
+        height: 70vw;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -37,17 +37,18 @@
             bottom: 95%;
             font-weight: bold;
             text-transform: uppercase;
-            font-size: 1.3rem;
+            font-size: 6.5vw;
         }
         &__subtitulo{
+            font-size: 5vw;
             position: absolute;
             bottom: 75%;
         }
     }
     .swiper-slide img {
         display: block;
-        width: 170px;
-        height: 100px;
+        width: 56vw;
+        height: 33vw;
         object-fit: cover;
     }
     .swiper-pagination {
@@ -63,10 +64,10 @@
     text-align: center;
     &__titulo{
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 7.5vw;
     }
     &__subtitulo{
-        font-size: 1rem;
+        font-size: 5vw;
         font-weight: 200;
     }
     &__btn{
@@ -76,9 +77,9 @@
         color: #FFF;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: .8rem;
-        margin-top: .5rem;
-        padding: .7rem .5rem;
+        font-size: 4vw;
+        margin-top: 3vw;
+        padding: 4vw 3vw;
     }
     .sub{
         background-color: #E0AAFF;
@@ -88,25 +89,24 @@
 .video{
     text-align: center;
     &__titulo{
-        margin-top: 3rem;
-        font-size: 1.2rem;
+        margin-top: 15vw;
+        font-size: 6vw;
         font-weight: bold;
     }
     &__subtitulo{
-        font-size: 1rem;
+        font-size: 5vw;
         font-weight: 200;
-        font-weight: 50px;
-        padding: 0 1.5rem;
+        padding: 0 6vw;
     }
     &__btn{
-        width: 10rem;
+        width: 50vw;
         background-color: #5A189A;
         border: 0;
         border-radius: .25rem;
         color: #FFF;
         text-transform: uppercase;
         font-weight: bold;
-        padding: .2rem 2rem;
+        padding: 1vw 1vw;
     }
     &__video{
         border-radius: 2rem;
@@ -115,9 +115,9 @@
         display: flex;
         justify-content: center;
         position:relative;
-        margin-bottom: 1rem;
+        margin-bottom: 5vw;
         &__video{
-            width: 17rem;
+            width: 85vw;
             border-radius: 30px;
             object-fit: cover;
         }
@@ -125,20 +125,32 @@
         &__btn{
             position: absolute;
             z-index: 9;
-            top: 28%;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        &__veja{
+            font-size: 5vw;
+            border: 0;
+            background: #5A189A;
+            border-radius: .5rem;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            padding: 2vw 4vw;
         }
     }
 }
 
 .rodape{
-    font-size: .5rem;
+    font-size: 2.5vw;
     color: #FFF;
     margin-top: 2rem;
     background: #5A189A;
     display: flex;
     &__img{
-        margin: 1rem .5rem;
-        width: 3rem;
+        margin: 7vw 2vw;
+        width: 20vw;
     }
     &__info{
         padding-top: 1rem;
