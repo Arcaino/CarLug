@@ -19,15 +19,14 @@
 }
 
 .swiper-container {
-  width: 80vw;
-  height: 100%;
+  width: 90vw;
+  height: 140%;
   overflow: visible;
 }
 
 .swiper-container .swiper-slide {
   margin-top: 5vw;
-  height: 70vw;
-  text-align: center;
+  height: 50vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,28 +39,25 @@
 }
 
 .swiper-container .swiper-slide__titulo {
-  bottom: 95%;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 6.5vw;
 }
 
 .swiper-container .swiper-slide__subtitulo {
-  font-size: 5vw;
-  position: absolute;
-  bottom: 75%;
+  text-align: center;
 }
 
 .swiper-container .swiper-slide img {
-  display: block;
   width: 56vw;
   height: 33vw;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .swiper-container .swiper-pagination {
   top: 72%;
+}
+
+.swiper-container .modelo {
+  color: #5A189A;
 }
 
 :root {
@@ -69,6 +65,7 @@
 }
 
 .conteudo {
+  margin-top: 3rem;
   text-align: center;
 }
 

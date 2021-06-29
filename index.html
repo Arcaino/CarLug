@@ -22,12 +22,12 @@
   <body>
 
     <header class="cabecalho">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid p-0">
           <a class="navbar-brand" href="#">
             <img class="cabecalho__logo" src="assets/Logo.svg">
           </a>
-          <button class="cabecalho__btn d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="cabecalho__btn d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars cabecalho__menu"></i>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -50,49 +50,91 @@
       </nav>
     </header>
     
+    <div class="row">
 
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="swiper-slide__titulo" style="position: absolute; left: 10vw;">Hyundai</div>
-          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 10vw; color: #5A189A">Sonata</div>
-          <div class="swiper-slide__subtitulo">2.4 MPFI I4 16V 182CV GASOLINA 4P AUTOMÁTICO</div>
-          <img src="assets/car.svg">
-        </div>
-        <div class="swiper-slide">
-          <div class="swiper-slide__titulo" style="position: absolute; left: 15vw;">Ford</div>
-          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 12vw; color: #5A189A">Mustang</div>
-          <div class="swiper-slide__subtitulo">5.0 V8 TI-VCT GASOLINA BLACK SHADOW SELECTSHIFT</div>
-          <img src="assets/car2.svg">
-        </div>
-        <div class="swiper-slide">
-          <div class="swiper-slide__titulo marca" style="position: absolute; left: 10vw;">Toyota</div>
-          <div class="swiper-slide__titulo modelo" style="position: absolute; right: 12vw; color: #5A189A">Corolla</div>
-          <div class="swiper-slide__subtitulo">2.0 ALTIS 16V FLEX 4P AUTOMÁTICO
-          </div>
-          <img src="assets/car3.svg">
-        </div>
-        <div class="swiper-slide">
-          <div class="swiper-slide__titulo marca" style="position: absolute; left: 7vw;">Lamborguini</div>
-          <div class="swiper-slide__titulo modelo" style="position: absolute; right:7vw; color: #5A189A">Urus</div>
-          <div class="swiper-slide__subtitulo">4.0 V8 TURBO GASOLINA LP650-4 AUTOMÁTICO
-          </div>
-          <img src="assets/car4.svg">
-        </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
+      <div class="col-md-6">
 
-    <div class="container conteudo">
-      <h1 class="conteudo__titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-      <h2 class="conteudo__subtitulo">Praesent eu ultrices ipsum. Etiam interdum, urna eget tincidunt rutrum.</h2>
-      <div class="d-flex justify-content-around">
-      <button class="conteudo__btn">Alugue seu carro</button>
-      <button class="conteudo__btn sub">Faça seu teste</button>
+        <div class="swiper-container mySwiper w-md-100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row">
+                  <div class="swiper-slide__titulo col text-end p-0">Toyota</div>
+                  <div class="swiper-slide__titulo col modelo">Sonata</div>
+                </div>
+                <div class="row">
+                  <div class="swiper-slide__subtitulo">2.4 MPFI I4 16V 182CV GASOLINA 4P AUTOMÁTICO</div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <img src="assets/car.svg">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row">
+                  <div class="swiper-slide__titulo col text-end p-0">Ford</div>
+                  <div class="swiper-slide__titulo col modelo">Mustang</div>
+                </div>
+                <div class="row">
+                  <div class="swiper-slide__subtitulo">5.0 V8 TI-VCT GASOLINA BLACK SHADOW SELECTSHIFT</div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <img src="assets/car2.svg">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+              <div class="row">
+                <div class="swiper-slide__titulo col text-end p-0">Toyota</div>
+                <div class="swiper-slide__titulo col modelo">Corolla</div>
+              </div>
+              <div class="row">
+                <div class="swiper-slide__subtitulo">2.0 ALTIS 16V FLEX 4P AUTOMÁTICO</div>
+              </div>
+              <div class="row d-flex justify-content-center">
+                <img src="assets/car3.svg">
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="container">
+                <div class="row">
+                  <div class="swiper-slide__titulo col-7 text-end p-0">Lamborguini</div>
+                  <div class="swiper-slide__titulo col modelo">Urus</div>
+                </div>
+                <div class="row">
+                  <div class="swiper-slide__subtitulo">4.0 V8 TURBO GASOLINA LP650-4 AUTOMÁTICO</div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <img src="assets/car4.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
       </div>
-    </div>
+
+      <div class="col-md-6">
+      
+        <div class="container conteudo">
+          <h1 class="conteudo__titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+          <h2 class="conteudo__subtitulo">Praesent eu ultrices ipsum. Etiam interdum, urna eget tincidunt rutrum.</h2>
+          <div class="d-flex justify-content-around">
+          <button class="conteudo__btn">Alugue seu carro</button>
+          <button class="conteudo__btn sub">Faça seu teste</button>
+          </div>
+        </div>
+
+      </div>
+
+  </div>
+
 
     <div class="container video">
       <h1 class="video__titulo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>

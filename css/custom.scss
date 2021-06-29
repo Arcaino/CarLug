@@ -22,37 +22,32 @@
 }
 
 .swiper-container{
-    width: 80vw;
-    height: 100%; 
+    width: 90vw;
+    height: 140%; 
     overflow: visible;
     .swiper-slide{
         margin-top: 5vw;
-        height: 70vw;
-        text-align: center;
+        height: 50vw;
         display: flex;
         justify-content: center;
         align-items: center;
         &__titulo{
-            
-            bottom: 95%;
             font-weight: bold;
             text-transform: uppercase;
-            font-size: 6.5vw;
         }
         &__subtitulo{
-            font-size: 5vw;
-            position: absolute;
-            bottom: 75%;
+            text-align: center;
         }
     }
     .swiper-slide img {
-        display: block;
         width: 56vw;
         height: 33vw;
-        object-fit: cover;
     }
     .swiper-pagination {
         top: 72%;
+    }
+    .modelo{
+        color: #5A189A;
     }
 }
 
@@ -61,6 +56,7 @@
 }
 
 .conteudo{
+    margin-top: 3rem;
     text-align: center;
     &__titulo{
         font-weight: bold;
