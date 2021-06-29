@@ -1,10 +1,9 @@
 .cabecalho .cabecalho__logo {
-  margin: 1rem;
+  margin: 0 2rem;
 }
 
 .cabecalho .cabecalho__menu {
   font-size: 2rem;
-  margin: 2rem 1rem;
 }
 
 .cabecalho .navbar-collapse .nav-item .nav-link {
@@ -18,13 +17,11 @@
   color: #5A189A;
 }
 
-.swiper-container {
-  width: 90vw;
+.mySwiper {
   height: 140%;
-  overflow: visible;
 }
 
-.swiper-container .swiper-slide {
+.mySwiper .swiper-slide {
   margin-top: 5vw;
   height: 50vw;
   display: -webkit-box;
@@ -38,25 +35,25 @@
           align-items: center;
 }
 
-.swiper-container .swiper-slide__titulo {
+.mySwiper .swiper-slide__titulo {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.swiper-container .swiper-slide__subtitulo {
+.mySwiper .swiper-slide__subtitulo {
   text-align: center;
 }
 
-.swiper-container .swiper-slide img {
+.mySwiper .swiper-slide img {
   width: 56vw;
   height: 33vw;
 }
 
-.swiper-container .swiper-pagination {
+.mySwiper .swiper-pagination {
   top: 72%;
 }
 
-.swiper-container .modelo {
+.mySwiper .modelo {
   color: #5A189A;
 }
 

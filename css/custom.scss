@@ -1,10 +1,9 @@
 .cabecalho{
     .cabecalho__logo{
-        margin: 1rem;
+        margin: 0 2rem;
     }
     .cabecalho__menu{
         font-size: 2rem;
-        margin: 2rem 1rem;
     }
     .navbar-collapse{
         .nav-item{
@@ -21,10 +20,8 @@
     }
 }
 
-.swiper-container{
-    width: 90vw;
+.mySwiper{
     height: 140%; 
-    overflow: visible;
     .swiper-slide{
         margin-top: 5vw;
         height: 50vw;

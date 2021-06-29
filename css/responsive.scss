@@ -11,6 +11,33 @@
 }
 
 @media (min-width: 768px) {
+    .swiper-container{
+        width: 40vw;
+        height: 125%;
+        .swiper-slide{
+            height: 20vw;
+        }
+        .swiper-slide img {
+            width: 25vw;
+            height: 15vw;
+        }
+    }
 
-
+    .conteudo{
+        &__titulo{
+            font-size: 3vw;
+        }
+        &__subtitulo{
+            font-size: 2vw;
+            font-weight: 200;
+        }
+        &__btn{
+            font-size: 2vw;
+            margin-top: 3vw;
+            padding: 2vw 1vw;
+        }
+        .sub{
+            background-color: #E0AAFF;
+        }
+    }
 }
