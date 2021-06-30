@@ -1,7 +1,6 @@
 .cabecalho{
-    .cabecalho__logo{
-        margin: 0 2rem;
-    }
+    height: 15vh;
+    padding: 0 4vw;
     .cabecalho__menu{
         font-size: 2rem;
     }
@@ -20,31 +19,28 @@
     }
 }
 
-.mySwiper{
-    height: 140%; 
-    .swiper-slide{
-        margin-top: 5vw;
-        height: 50vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &__titulo{
-            font-weight: bold;
-            text-transform: uppercase;
+.tela1{
+    padding-top: 7vw;
+    height: 85vh;
+    .mySwiper{
+        .swiper-slide{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__titulo{
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            &__subtitulo{
+                text-align: center;
+            }
         }
-        &__subtitulo{
-            text-align: center;
+        .swiper-slide img {
+            width: 80%;
         }
-    }
-    .swiper-slide img {
-        width: 56vw;
-        height: 33vw;
-    }
-    .swiper-pagination {
-        top: 72%;
-    }
-    .modelo{
-        color: #5A189A;
+        .modelo{
+            color: #5A189A;
+        }
     }
 }
 
@@ -53,14 +49,14 @@
 }
 
 .conteudo{
-    margin-top: 3rem;
+    margin-top: 10%;
     text-align: center;
     &__titulo{
         font-weight: bold;
-        font-size: 7.5vw;
+        font-size: 4vw;
     }
     &__subtitulo{
-        font-size: 5vw;
+        font-size: 1rem;
         font-weight: 200;
     }
     &__btn{
@@ -70,9 +66,8 @@
         color: #FFF;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 4vw;
-        margin-top: 3vw;
-        padding: 4vw 3vw;
+        font-size: 3vw;
+        padding: 3vw 2vw;
     }
     .sub{
         background-color: #E0AAFF;
@@ -80,26 +75,25 @@
 }
 
 .video{
+    padding-top: 7vw;
+    height: 80vh;
+    background: cornsilk;
     text-align: center;
     &__titulo{
-        margin-top: 15vw;
-        font-size: 6vw;
         font-weight: bold;
     }
     &__subtitulo{
-        font-size: 5vw;
+        font-size: 6vw;
         font-weight: 200;
         padding: 0 6vw;
     }
     &__btn{
-        width: 50vw;
         background-color: #5A189A;
         border: 0;
         border-radius: .25rem;
         color: #FFF;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 1vw 1vw;
     }
     &__video{
         border-radius: 2rem;
@@ -110,7 +104,6 @@
         position:relative;
         margin-bottom: 5vw;
         &__video{
-            width: 85vw;
             border-radius: 30px;
             object-fit: cover;
         }
@@ -123,33 +116,25 @@
             transform: translate(-50%, -50%);
         }
         &__veja{
-            font-size: 5vw;
             border: 0;
             background: #5A189A;
             border-radius: .5rem;
             text-transform: uppercase;
             color: white;
             font-weight: bold;
-            padding: 2vw 4vw;
         }
     }
 }
 
 .rodape{
-    font-size: 2.5vw;
+    height: 20vh;
     color: #FFF;
-    margin-top: 2rem;
     background: #5A189A;
     display: flex;
-    &__img{
-        margin: 7vw 2vw;
-        width: 20vw;
-    }
+    font-size: 2.4vw;
     &__info{
-        padding-top: 1rem;
-        margin-bottom: 0;
-    }
-    &__copy{
-        padding-top: 1rem;
+        height: 100%;
+        font-size: 2.4vw;
+        overflow: hidden;
     }
 }

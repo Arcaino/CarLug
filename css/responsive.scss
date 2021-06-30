@@ -15,7 +15,7 @@
         width: 40vw;
         height: 125%;
         .swiper-slide{
-            height: 20vw;
+            height: 26vw;
         }
         .swiper-slide img {
             width: 25vw;
@@ -24,20 +24,68 @@
     }
 
     .conteudo{
+        margin-top: 12vw;
         &__titulo{
-            font-size: 3vw;
+            font-size: 2vw;
         }
         &__subtitulo{
-            font-size: 2vw;
+            font-size: 1.5vw;
             font-weight: 200;
         }
         &__btn{
-            font-size: 2vw;
-            margin-top: 3vw;
-            padding: 2vw 1vw;
+            font-size: 1vw;
+            margin-top: 1vw;
+            padding: 1vw 1vw;
         }
         .sub{
             background-color: #E0AAFF;
+        }
+    }
+
+    .video{
+        text-align: center;
+        width: 100%;
+        &__subtitulo{
+            font-weight: 200;
+            padding: 0 6vw;
+        }
+        &__btn{
+            background-color: #5A189A;
+            border: 0;
+            border-radius: .25rem;
+            color: #FFF;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        &__video{
+            border-radius: 2rem;
+        }
+        .moldura{
+            margin-bottom: 2vw;
+            &__video{
+                border-radius: 30px;
+            }
+    
+            &__btn{
+                top:50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &__veja{
+                border: 0;
+                border-radius: .5rem;
+            }
+        }
+    }
+
+    .rodape{
+        color: #FFF;
+        background: #5A189A;
+        display: flex;
+        &__info{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

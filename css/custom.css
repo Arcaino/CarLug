@@ -1,5 +1,6 @@
-.cabecalho .cabecalho__logo {
-  margin: 0 2rem;
+.cabecalho {
+  height: 15vh;
+  padding: 0 4vw;
 }
 
 .cabecalho .cabecalho__menu {
@@ -17,13 +18,12 @@
   color: #5A189A;
 }
 
-.mySwiper {
-  height: 140%;
+.tela1 {
+  padding-top: 7vw;
+  height: 85vh;
 }
 
-.mySwiper .swiper-slide {
-  margin-top: 5vw;
-  height: 50vw;
+.tela1 .mySwiper .swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,25 +35,20 @@
           align-items: center;
 }
 
-.mySwiper .swiper-slide__titulo {
+.tela1 .mySwiper .swiper-slide__titulo {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.mySwiper .swiper-slide__subtitulo {
+.tela1 .mySwiper .swiper-slide__subtitulo {
   text-align: center;
 }
 
-.mySwiper .swiper-slide img {
-  width: 56vw;
-  height: 33vw;
+.tela1 .mySwiper .swiper-slide img {
+  width: 80%;
 }
 
-.mySwiper .swiper-pagination {
-  top: 72%;
-}
-
-.mySwiper .modelo {
+.tela1 .mySwiper .modelo {
   color: #5A189A;
 }
 
@@ -62,17 +57,17 @@
 }
 
 .conteudo {
-  margin-top: 3rem;
+  margin-top: 10%;
   text-align: center;
 }
 
 .conteudo__titulo {
   font-weight: bold;
-  font-size: 7.5vw;
+  font-size: 4vw;
 }
 
 .conteudo__subtitulo {
-  font-size: 5vw;
+  font-size: 1rem;
   font-weight: 200;
 }
 
@@ -83,9 +78,8 @@
   color: #FFF;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 4vw;
-  margin-top: 3vw;
-  padding: 4vw 3vw;
+  font-size: 3vw;
+  padding: 3vw 2vw;
 }
 
 .conteudo .sub {
@@ -93,30 +87,29 @@
 }
 
 .video {
+  padding-top: 7vw;
+  height: 80vh;
+  background: cornsilk;
   text-align: center;
 }
 
 .video__titulo {
-  margin-top: 15vw;
-  font-size: 6vw;
   font-weight: bold;
 }
 
 .video__subtitulo {
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 200;
   padding: 0 6vw;
 }
 
 .video__btn {
-  width: 50vw;
   background-color: #5A189A;
   border: 0;
   border-radius: .25rem;
   color: #FFF;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1vw 1vw;
 }
 
 .video__video {
@@ -135,7 +128,6 @@
 }
 
 .video .moldura__video {
-  width: 85vw;
   border-radius: 30px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -151,37 +143,27 @@
 }
 
 .video .moldura__veja {
-  font-size: 5vw;
   border: 0;
   background: #5A189A;
   border-radius: .5rem;
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  padding: 2vw 4vw;
 }
 
 .rodape {
-  font-size: 2.5vw;
+  height: 20vh;
   color: #FFF;
-  margin-top: 2rem;
   background: #5A189A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.rodape__img {
-  margin: 7vw 2vw;
-  width: 20vw;
+  font-size: 2.4vw;
 }
 
 .rodape__info {
-  padding-top: 1rem;
-  margin-bottom: 0;
-}
-
-.rodape__copy {
-  padding-top: 1rem;
+  height: 100%;
+  font-size: 2.4vw;
+  overflow: hidden;
 }
 /*# sourceMappingURL=custom.css.map */
