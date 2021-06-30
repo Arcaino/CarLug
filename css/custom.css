@@ -1,5 +1,4 @@
 .cabecalho {
-  height: 15vh;
   padding: 0 4vw;
 }
 
@@ -18,12 +17,17 @@
   color: #5A189A;
 }
 
-.tela1 {
-  padding-top: 7vw;
-  height: 85vh;
+.tela1 .bloco1 {
+  height: 30rem;
 }
 
-.tela1 .mySwiper .swiper-slide {
+.tela1 .bloco1 .order-md-1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tela1 .bloco1 .mySwiper .swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,20 +39,20 @@
           align-items: center;
 }
 
-.tela1 .mySwiper .swiper-slide__titulo {
+.tela1 .bloco1 .mySwiper .swiper-slide__titulo {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.tela1 .mySwiper .swiper-slide__subtitulo {
+.tela1 .bloco1 .mySwiper .swiper-slide__subtitulo {
   text-align: center;
 }
 
-.tela1 .mySwiper .swiper-slide img {
+.tela1 .bloco1 .mySwiper .swiper-slide img {
   width: 80%;
 }
 
-.tela1 .mySwiper .modelo {
+.tela1 .bloco1 .mySwiper .modelo {
   color: #5A189A;
 }
 
@@ -57,7 +61,6 @@
 }
 
 .conteudo {
-  margin-top: 10%;
   text-align: center;
 }
 
@@ -79,7 +82,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 3vw;
-  padding: 3vw 2vw;
+  padding: 1.4vw 2vw;
 }
 
 .conteudo .sub {
@@ -87,9 +90,7 @@
 }
 
 .video {
-  padding-top: 7vw;
-  height: 80vh;
-  background: cornsilk;
+  background: #f7f7f7;
   text-align: center;
 }
 
@@ -143,6 +144,8 @@
 }
 
 .video .moldura__veja {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
   border: 0;
   background: #5A189A;
   border-radius: .5rem;
@@ -152,16 +155,17 @@
 }
 
 .rodape {
-  height: 20vh;
   color: #FFF;
   background: #5A189A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 2.4vw;
+  padding: 1.5vw 0;
 }
 
 .rodape__info {
+  margin: 0;
   height: 100%;
   font-size: 2.4vw;
   overflow: hidden;

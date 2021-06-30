@@ -1,5 +1,4 @@
 .cabecalho{
-    height: 15vh;
     padding: 0 4vw;
     .cabecalho__menu{
         font-size: 2rem;
@@ -20,26 +19,30 @@
 }
 
 .tela1{
-    padding-top: 7vw;
-    height: 85vh;
-    .mySwiper{
-        .swiper-slide{
-            display: flex;
-            justify-content: center;
+    .bloco1{
+        height: 30rem;
+        .order-md-1{
             align-items: center;
-            &__titulo{
-                font-weight: bold;
-                text-transform: uppercase;
-            }
-            &__subtitulo{
-                text-align: center;
-            }
         }
-        .swiper-slide img {
-            width: 80%;
-        }
-        .modelo{
-            color: #5A189A;
+        .mySwiper{
+            .swiper-slide{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &__titulo{
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                &__subtitulo{
+                    text-align: center;
+                }
+            }
+            .swiper-slide img {
+                width: 80%;
+            }
+            .modelo{
+                color: #5A189A;
+            }
         }
     }
 }
@@ -49,7 +52,6 @@
 }
 
 .conteudo{
-    margin-top: 10%;
     text-align: center;
     &__titulo{
         font-weight: bold;
@@ -67,7 +69,7 @@
         text-transform: uppercase;
         font-weight: bold;
         font-size: 3vw;
-        padding: 3vw 2vw;
+        padding: 1.4vw 2vw;
     }
     .sub{
         background-color: #E0AAFF;
@@ -75,9 +77,7 @@
 }
 
 .video{
-    padding-top: 7vw;
-    height: 80vh;
-    background: cornsilk;
+    background: rgb(247, 247, 247);
     text-align: center;
     &__titulo{
         font-weight: bold;
@@ -116,6 +116,8 @@
             transform: translate(-50%, -50%);
         }
         &__veja{
+            padding: .5rem 1rem;
+            margin-bottom: 1rem;
             border: 0;
             background: #5A189A;
             border-radius: .5rem;
@@ -127,12 +129,13 @@
 }
 
 .rodape{
-    height: 20vh;
     color: #FFF;
     background: #5A189A;
     display: flex;
     font-size: 2.4vw;
+    padding: 1.5vw 0;
     &__info{
+        margin: 0;
         height: 100%;
         font-size: 2.4vw;
         overflow: hidden;
